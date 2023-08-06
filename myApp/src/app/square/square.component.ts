@@ -4,12 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-square',
   template: `
     <p>
-      square works!
+      {{ random }}
     </p>
   `,
   styles: [
   ]
 })
 export class SquareComponent {
-
+  random = Math.random()
 }
